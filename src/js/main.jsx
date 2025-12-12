@@ -14,13 +14,15 @@ import Counter from './components/Counter';
 
 let reactRender = ReactDOM.createRoot(document.getElementById('root'))
 
+let decount = 100
 let count = 0
+let digits = 5
 
 
 let myInterval = setInterval(() => {
   reactRender.render(
     <React.StrictMode>
-      <Counter count={count} />
+      <Counter count={count} digits={digits} />
 
     </React.StrictMode>,
   )
