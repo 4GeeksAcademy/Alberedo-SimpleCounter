@@ -1,4 +1,5 @@
 import React from "react";
+import SecondsCounter from "./SecondsCounter";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -10,6 +11,7 @@ const Home = () => {
             
 
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
+			<SecondsCounter />
 			<p>
 				<img src={rigoImage} />
 			</p>
